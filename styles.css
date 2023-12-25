@@ -1,4 +1,23 @@
-body {
-background-color: gray;
-
+#quiz-header{
+    text-align: center;
 }
+
+
+
+body {
+    background-color: gray;
+}
+
+.quiz-container {
+    border-radius: 10px;
+    background-color: blue;
+    width: 500px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+    .quiz-container h3 {
+        text-align: center;
+    }
